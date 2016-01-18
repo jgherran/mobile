@@ -16,11 +16,24 @@ namespace CApp
             {
                 Placeholder = "Cual es tu problema?"
             };
-            var entDesc = new Entry
+            var entDesc = new Editor
             {
-                Placeholder = "Describe tu problema..."
+                Text = "Describe tu problema..."
+                //Placeholder = "Describe tu problema..."
                
             };
+            var sliCat = new Slider
+            {
+                Minimum = 1,
+                Maximum = 10
+            };
+            var sliLevel = new Slider
+            {
+                Minimum = 1,
+                Maximum = 10
+            };
+
+
             var btnEnviar = new Button
             {
                 Text = "Enviar"
@@ -31,7 +44,7 @@ namespace CApp
             {
                 Padding = 30,
                 Spacing = 10,
-                Children = { labTitulo, entNombre, entDesc, btnEnviar }
+                Children = { labTitulo, entNombre, entDesc, sliCat, sliLevel, btnEnviar }
             };
 
 

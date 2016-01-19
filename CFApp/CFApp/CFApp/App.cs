@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace CFApp
+namespace XFApp
 {
     public class App : Application
     {

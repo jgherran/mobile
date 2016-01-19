@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CFApp.MyPage">
+             x:Class="XFApp.MyPage">
   <StackLayout>
 
-    <Label Text="Titulo" FontSize="24"/>
-     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="100" Color="Red" />
+    <Label Text="Titulo" FontSize="24" x:Name="lblTitulo"/>
+     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="100" Color="Red" x:Name ="boxviewColor" />
     
   </StackLayout> 
 </ContentPage>

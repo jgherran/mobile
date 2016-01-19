@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace CFApp
+namespace XFApp
 {
     public partial class MyPage : ContentPage
     {
         public MyPage()
         {
             InitializeComponent();
+            lblTitulo.Text = "Esto es una nota!";
         }
     }
 }
